@@ -1,0 +1,71 @@
+body {
+    height: 100%;
+    display: grid;
+    grid-template: 75px 10% 250px 25% 25% / 1% 1fr 1fr 1fr 1fr 1%;
+}
+
+.parallax {
+    background-image: url(https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    display: grid;
+    color: lightseagreen;
+    font-family: 'Zen Dots', cursive;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.gettingStarted {
+    display: grid;
+    grid-column: 3 / span 2;
+    grid-row: 1 / 2;
+    justify-content: center;
+    margin: 3%;
+}
+
+.searchForm {
+    display: grid;
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+form {
+    background-color: indigo;
+    font-family: 'Zen Dots', cursive;
+    color: lightseagreen;
+    padding: 5%;
+    font-size: large;
+}
+
+.submit {
+    margin-left: 25%;
+    border-radius: 5px;
+    height: 30px;
+    font-size: large;
+}
+
+.resetBtn {
+    margin-left: 5%;
+    border-radius: 5px;
+    height: 30px;
+    font-size: large;
+    color: lightseagreen;
+    background-color: midnightblue;
+}
+
+.searchResults {
+    display: grid;
+    grid-row: 2 / span 5;
+    grid-column: 5 / 6;
+    font-family: 'Zen Dots', cursive;
+    color: lightseagreen;
+}
+
+.searchResults p {
+    color: lightsteelblue;
+}
