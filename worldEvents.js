@@ -3,7 +3,7 @@ let mine = "WPo98FRE865cu9vQDb326vbJp8jfCVwL49QNw5GH";
 let catList = document.querySelector("select");
 let searchEvents = document.querySelector("form");
 let searchResults = document.querySelector(".searchResults");
-
+let resetBtn = document.querySelector(".resetBtn");
 
 async function fetchCategoryResults() {
     url = `${baseURL}?api_key=${mine}`;
